@@ -22,6 +22,16 @@
 </header>
 <div class="layout">
 
+<div id="sidebar"></div>
+
+<script>
+fetch("sidebar.html")
+.then(res => res.text())
+.then(data => {
+document.getElementById("sidebar").innerHTML = data;
+});
+</script>
+  
 <!-- SIDEBAR -->
 
 <aside class="sidebar">

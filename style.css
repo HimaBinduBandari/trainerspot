@@ -36,10 +36,13 @@ width:240px;
 background:#ffffff;
 padding:20px;
 border-radius:10px;
+color:#111; /* main text color */
 }
 
 .sidebar h3{
 margin-bottom:10px;
+color:#000; /* heading color */
+font-weight:600;
 }
 
 .sidebar ul{
@@ -49,9 +52,9 @@ margin-bottom:20px;
 
 .sidebar li{
 padding:8px 0;
-border-bottom:1px solid #1f2937;
+border-bottom:1px solid #e5e7eb;
+color:#333; /* list text color */
 }
-
 /* CONTENT */
 
 .content{

@@ -31,8 +31,8 @@ jobs:
       - name: Generate sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url: https://himabindubandari.github.io/TrainerSpot/
-
+          base-url: "https://himabindubandari.github.io/TrainerSpot"
+          path-to-root: "."
       # ✅ NEW STEP: Commit sitemap
       - name: Commit sitemap
         run: |

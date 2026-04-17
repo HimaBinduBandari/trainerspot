@@ -425,3 +425,10 @@ font-size:14px;
 .store-link:hover .store-card {
   transform: translateY(-6px);
 }
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  scroll-margin-top: 100px; /* adjust based on header height */
+}

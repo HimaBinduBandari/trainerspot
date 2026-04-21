@@ -10,17 +10,14 @@
 
 <body>
 
-<header class="header">
-<div class="header-container">
-<div class="logo">Trainer<span>Spot</span></div>
-<nav class="menu">
-<a href="#">Home</a>
-<a href="#">Coupons</a>
-<a href="#">Stores</a>
-<a href="#">Categories</a>
-</nav>
-</div>
-</header>
+<div id="header"></div>
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
 <div class="layout">
 
 <div id="sidebar"></div>

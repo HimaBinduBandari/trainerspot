@@ -33,8 +33,26 @@ document.getElementById("sidebar").innerHTML = data;
 <!-- CONTENT -->
 
 <main class="content">
+  <div class="trainer-header">
+      <div class="trainer-left">
+        <img src="https://img-c.udemycdn.com/user/200_H/247507994_c419_8.jpg" class="trainer-logo">
+
+        <div>
+          <h1>Christopher Nett Udemy Course Coupons <span class="verified">✔</span></h1>
+          <p>Christopher Nett creates practical courses focused on Cybersecurity, Ethical Hacking, Penetration Testing, Network Security, Linux, and IT Fundamentals. His training emphasizes hands-on labs, real-world attack simulations, and step-by-step explanations to help learners build practical security skills and prepare for cybersecurity careers.</p>
+<br>
+          <div class="stats">
+            <span>⭐ 32K+ reviews</span>
+            <span>👨‍🎓 90K+ Students</span>
+            <span>📚 39 Courses</span>
+            <span>🎯 36 Courses have active coupons</span>  
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-right">🎓</div>
+    </div>
 <div class="section-title">
-<h2>Christopher Nett Udemy Course Coupons</h2>
     <h3> Azure Administration & Architecture Course Coupons</h3>
 <p>These courses focus on managing, designing, and optimizing Azure environments, covering both administrator and architect-level skills.</p>
 </div>
@@ -136,6 +154,13 @@ document.getElementById("sidebar").innerHTML = data;
 </main>
 
 </div>
-
+    <div id="footer"></div>
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
 </body>
 </html>

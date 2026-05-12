@@ -10,17 +10,14 @@
 
 <body>
 
-<header class="header">
-<div class="header-container">
-<div class="logo">Trainer<span>Spot</span></div>
-<nav class="menu">
-<a href="#">Home</a>
-<a href="#">Coupons</a>
-<a href="#">Stores</a>
-<a href="#">Categories</a>
-</nav>
-</div>
-</header>
+<div id="header"></div>
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
 <div class="layout">
 
 <div id="sidebar"></div>
@@ -36,19 +33,38 @@ document.getElementById("sidebar").innerHTML = data;
 <!-- CONTENT -->
 
 <main class="content">
+  <div class="trainer-header">
+      <div class="trainer-left">
+        <img src="https://img-c.udemycdn.com/user/200_H/6844166_853d_3.jpg" class="trainer-logo">
+
+        <div>
+          <h1>Ronaldo Carreta Udemy Course Coupons <span class="verified">✔</span></h1>
+          <p></p>
+<br>
+          <div class="stats">
+            <span>⭐ 30K+ reviews</span>
+            <span>👨‍🎓 91K+ Students</span>
+            <span>📚 8 Courses</span>
+            <span>🎯 8 Courses have active coupons</span>  
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-right">🎓</div>
+    </div>
 <div class="section-title">
-<h2>Ronaldo Carreta Udemy Course Coupons</h2>
+<h2></h2>
 <p></p>
 </div>
 <div class="course-grid">
 
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1784860_d95e_3.jpg"></div><div class="card-body"><h3>Curso Completo de AutoCAD 2D e 3D – Do Zero ao Avançado 2026</h3><p>Do zero ao avançado: domine o AutoCAD 2025 em 2D e 3D com exercícios reais e técnicas profissionais.</p><div class="meta"><span>⭐4.8 (19,138 ratings)</span><span>⏱113 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1784860&u=https://www.udemy.com/course/formacao-completa-em-autocad-2d-e-3d/?couponCode=PROMOMAR26FCAD" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/2865692_def3_5.jpg"></div><div class="card-body"><h3>Domine o AutoCAD - Projeto Arquitetônico Do Zero à Impressão</h3><p>Aprenda a desenhar um sobrado no AutoCAD do zero à impressão, com plantas, cortes, fachadas e layout.</p><div class="meta"><span>⭐4.8 (1,102 ratings)</span><span>⏱26.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.2865692&u=https://www.udemy.com/course/projeto-arquitetonico-de-um-sobrado-no-autocad/?couponCode=PROMOMAR26PSOB" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1835922_37d3_3.jpg"></div><div class="card-body"><h3>Revit Para Iniciantes – Do Zero ao Projeto Arquitetônico</h3><p>Domine o Revit com um projeto completo de uma casa: visualização, cortes, layout e impressão.</p><div class="meta"><span>⭐4.7 (2,808 ratings)</span><span>⏱25 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1835922&u=https://www.udemy.com/course/revit-para-iniciantes/?couponCode=PROMOMAR26RVT2" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1769260_402d.jpg"></div><div class="card-body"><h3>Aprenda AutoCAD na Prática</h3><p>100 exercícios passo a passo.</p><div class="meta"><span>⭐4.9 (312 ratings)</span><span>⏱25.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1769260&u=https://www.udemy.com/course/aprenda-autocad-na-pratica/?couponCode=PROMOMAR26CADPRA" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/6268751_7cde_4.jpg"></div><div class="card-body"><h3>Aprenda como Desenhar um Projeto Arquitetônico no AutoCAD</h3><p>Desenhe plantas, corte, fachadas e muito mais.</p><div class="meta"><span>⭐4.7 (26 ratings)</span><span>⏱13 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.6268751&u=https://www.udemy.com/course/aprenda-como-desenhar-um-projeto-arquitetonico-no-autocad/?couponCode=PROMOMAR26ADPA" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1774636_33a4_3.jpg"></div><div class="card-body"><h3>Formação em SketchUp</h3><p>Aprenda a desenhar qualquer tipo de projeto no SketchUp.</p><div class="meta"><span>⭐4.7 (2,833 ratings)</span><span>⏱24.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1774636&u=https://www.udemy.com/course/formacao-em-sketchup/?couponCode=PROMOMAR26SKP" class="btn" target="_blank">Get Coupon</a></div></div></div>
-<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1844336_154c.jpg"></div><div class="card-body"><h3>SolidWorks Para Iniciantes</h3><p>Aprenda a desenhar um projeto mecânico no SolidWoks.</p><div class="meta"><span>⭐4.8 (559 ratings)</span><span>⏱9.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1844336&u=https://www.udemy.com/course/solidworks-para-iniciantes/?couponCode=PROMOMAR26SW" class="btn" target="_blank">Get Coupon</a></div></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1784860_d95e_3.jpg"></div><div class="card-body"><h3>Curso Completo de AutoCAD 2D e 3D – Do Zero ao Avançado 2026</h3><p>Do zero ao avançado: domine o AutoCAD 2025 em 2D e 3D com exercícios reais e técnicas profissionais.</p><div class="meta"><span>⭐4.8 (19,138 ratings)</span><span>⏱113 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1784860&u=https://www.udemy.com/course/formacao-completa-em-autocad-2d-e-3d/?couponCode=PROMOABR26FCAD" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/2865692_def3_5.jpg"></div><div class="card-body"><h3>Domine o AutoCAD - Projeto Arquitetônico Do Zero à Impressão</h3><p>Aprenda a desenhar um sobrado no AutoCAD do zero à impressão, com plantas, cortes, fachadas e layout.</p><div class="meta"><span>⭐4.8 (1,102 ratings)</span><span>⏱26.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.2865692&u=https://www.udemy.com/course/projeto-arquitetonico-de-um-sobrado-no-autocad/?couponCode=PROMOABR26PSOB" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1835922_37d3_3.jpg"></div><div class="card-body"><h3>Revit Para Iniciantes – Do Zero ao Projeto Arquitetônico</h3><p>Domine o Revit com um projeto completo de uma casa: visualização, cortes, layout e impressão.</p><div class="meta"><span>⭐4.7 (2,808 ratings)</span><span>⏱25 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1835922&u=https://www.udemy.com/course/revit-para-iniciantes/?couponCode=PROMOABR26RVT2" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1769260_402d.jpg"></div><div class="card-body"><h3>Aprenda AutoCAD na Prática</h3><p>100 exercícios passo a passo.</p><div class="meta"><span>⭐4.9 (312 ratings)</span><span>⏱25.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1769260&u=https://www.udemy.com/course/aprenda-autocad-na-pratica/?couponCode=PROMOABR26CADPRA" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/6268751_7cde_4.jpg"></div><div class="card-body"><h3>Aprenda como Desenhar um Projeto Arquitetônico no AutoCAD</h3><p>Desenhe plantas, corte, fachadas e muito mais.</p><div class="meta"><span>⭐4.7 (26 ratings)</span><span>⏱13 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.6268751&u=https://www.udemy.com/course/aprenda-como-desenhar-um-projeto-arquitetonico-no-autocad/?couponCode=PROMOABR26ADPA" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1774636_33a4_3.jpg"></div><div class="card-body"><h3>Formação em SketchUp</h3><p>Aprenda a desenhar qualquer tipo de projeto no SketchUp.</p><div class="meta"><span>⭐4.7 (2,833 ratings)</span><span>⏱24.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1774636&u=https://www.udemy.com/course/formacao-em-sketchup/?couponCode=PROMOABR26SKP" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
+<div class="card"><div class="img-wrap"><img src="https://img-c.udemycdn.com/course/480x270/1844336_154c.jpg"></div><div class="card-body"><h3>SolidWorks Para Iniciantes</h3><p>Aprenda a desenhar um projeto mecânico no SolidWoks.</p><div class="meta"><span>⭐4.8 (559 ratings)</span><span>⏱9.5 hours</span></div><div class="card-footer"><div class="price"> $12.99 <span class="old">$74.99</span> </div><a href="https://trk.udemy.com/c/2758262/3227798/39854?prodsku=course.1844336&u=https://www.udemy.com/course/solidworks-para-iniciantes/?couponCode=PROMOABR26SW" class="btn" target="_blank">Get Coupon</a></div><p class="expiry">⏳ Expires on 27th May 2026</p></div></div>
 
 
 
@@ -57,6 +73,13 @@ document.getElementById("sidebar").innerHTML = data;
 </main>
 
 </div>
-
+  <div id="footer"></div>
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
 </body>
 </html>
